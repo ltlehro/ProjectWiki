@@ -5,16 +5,6 @@ CS50’s [Web Programming with Python and JavaScript](https://cs50.harvard.edu/w
 ## Project description
 Design a Wikipedia-like online encyclopedia.
 
-## How to run
-[Python3](https://www.python.org/) is a requirement.  
-- `git clone` this repository or download and extract .zip
-- Open terminal in project folder
-  - (Optional) Create and activate a Python virtual environment
-    - Windows: `python -m venv .venv && .venv\Scripts\activate.bat`
-    - Linux: `python3 -m venv .venv && source .venv/bin/activate`
-- Install requirements with `pip install -r requirements.txt`
-- Run with `python manage.py runserver` or `python3 manage.py runserver`
-
 ## TODO
 - [X] Entry Page: Visiting /wiki/TITLE, where TITLE is the title of an encyclopedia entry, should render a page that displays the contents of that encyclopedia entry.
   - [X] The view should get the content of the encyclopedia entry by calling the appropriate util function.
